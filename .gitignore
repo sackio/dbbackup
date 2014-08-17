@@ -1,0 +1,34 @@
+# OS generated files #
+######################
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+.*
+!.project
+!.gitignore
+!.gitmodules
+!.foreverignore
+*~
+
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Config file
+*.htpasswd
+config.json

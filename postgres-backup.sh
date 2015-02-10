@@ -6,13 +6,13 @@
 
 echo "Beginning postgres backup..."
 
-PUSER=""
+PUSER="$PUSER"
 DUMPALL="/usr/bin/pg_dumpall"
 PGDUMP="/usr/bin/pg_dump"
 PSQL="/usr/bin/psql"
-UUSER=""
+UUSER="$UUSER"
 
-DIR=""
+DIR="$DIR"
 LABEL="postgres_$(date +%Y-%m-%d-%H-%M)"
 
 mkdir -p "$DIR/$LABEL"
